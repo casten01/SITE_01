@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" integrity="sha512-BiFZ6oflftBIwm6lYCQtQ5DIRQ6tm02svznor2GYQOfAlT3pnVJ10xCrU3XuXnUrWQ4EG8GKxntXnYEdKY0Ugg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="header">
+  <div class="logo">
+    <a href="index.html">
+    <img src="gp_giallo.png" alt="" width="90px">
+  </a>
+  </div>
+  <ul class="menu">
+    <li class="normal-text"><a href="index.html">Home</a></li>
+    <li class="normal-text"><a href="works.html">Works</a></li>
+    <li class="normal-text"><a href="aboutme.html">About me</a></li>
+  </ul>
+  <div class="cta">
+    <a href="" class="button">Contatti</a>
+  </div>
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+
+</div>
+
+<div class="content mt-2">
+  <h3 class="normal-text"> WORKS</h3>
+    <p class="small-text">- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="small-text">- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="small-text">- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="footer mt-2">
+<div class="grid">
+  <div class="col">
+    <h4 class="tb normal-text">Instagram</h4>
+    <p class="tb small-text">@gabriele.paulon</p>
+    <div class="dot__black">
+    <img  src="insta.svg" alt="">
+    </div>
+  </div>
+  <div class="col ">
+    <h4 class="tb normal-text">Facebook</h4>
+    <p class="tb small-text">Gabriele Paulon</p>
+    <div class="dot__black">
+    <img  src="" alt="">
+    </div>
+  </div>
+  <div class="col ">
+    <h4 class="tb normal-text">Mail </h4>
+    <p class="tb small-text">gabriele@stefanopaulon.it</p>
+    <div class="dot__black">
+    <img  src="" alt="">
+    </div>
+  </div>
+  <div class="col ">
+    <h4 class="tb normal-text">Indirizzo</h4>
+    <p class="tb small-text">221b Baker Street</p>
+    <div class="dot__black">
+    <img  src="" alt="">
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js" integrity="sha512-cA8gcgtYJ+JYqUe+j2JXl6J3jbamcMQfPe0JOmQGDescd+zqXwwgneDzniOd3k8PcO7EtTW6jA7L4Bhx03SXoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+$( document ).ready(function() {
+
+  /* Open Panel */
+  $( ".hamburger" ).on('click', function() {
+    $(".menu").toggleClass("menu--open");
+  });
+
+});
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+GOOGLE FONTS: per cercare font diversi da quelli standard, mi copio il link href
+
+PEXELS: per cercare video da utilizzare senza diritti
+
+-> ispeziono codice html per "rubare" codice/colori
+
+LINEAR GRADIENT: concateno con la virgola due backgrounds, in questo caso metto
+                un'immagine di sfondo con colori gradienti(sfumati).
+
+COLOR PICKER W3S: prendere colori nei formati that i need
+
+FLICKITY: animazione slider, flickity cdn
+
+SCROLL REVEAL: per animazioni js
